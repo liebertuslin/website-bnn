@@ -88,7 +88,7 @@
 						?>
             <ul>
               <li><i class="ri-arrow-right-s-fill"></i><a
-                  href="golongan/narkotika.php?id=<?php echo $pecah['id_golongan']; ?>">
+                  href="golongan/psikotropika.php?id=<?php echo $pecah['id_golongan']; ?>">
                   <?php echo $pecah['golongan']; ?>
                 </a>
               </li>
@@ -108,7 +108,7 @@
 						?>
             <ul>
               <li><i class="ri-arrow-right-s-fill"></i><a
-                  href="golongan/narkotika.php?id=<?php echo $pecah['id_golongan']; ?>">
+                  href="golongan/zat_adiktif.php?id=<?php echo $pecah['id_golongan']; ?>">
                   <?php echo $pecah['golongan']; ?>
                 </a>
               </li>

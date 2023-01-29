@@ -44,11 +44,15 @@
         <div class="col-md-8 mb-5">
           <article class="artikel-website mt-5">
             <div class="container artikel">
-								Tag: <u><small class="mb-4 pt-4"><?php echo $singlePage['kategori']; ?></small></u><br>
-								<h2><?php echo $singlePage['judul']; ?></h2><br>
-								<video src="../video/<?php echo $singlePage['animasi']; ?>" controls width='600'></video>
-                <p class="text-justify"><?php echo $singlePage['keterangan']; ?></p>
-								<a href="../psikotropika.php" class="btn btn-outline-default">Back to posts</a>
+							<div class="card">
+								<div class="card-body">
+									Tag: <u><small class="mb-4 pt-4"><?php echo $singlePage['kategori']; ?></small></u><br>
+									<h2><?php echo $singlePage['judul']; ?></h2><br>
+									<video src="../video/<?php echo $singlePage['animasi']; ?>" controls width='600'></video>
+									<p class="text-justify" style="margin-right: 3rem; margin-top: 2rem;"><?php echo $singlePage['keterangan']; ?></p>
+									<a href="../psikotropika.php" class="btn btn-outline-default p-0">Back to posts</a>
+								</div>
+							</div>
             </div>
           </article>
         </div>
